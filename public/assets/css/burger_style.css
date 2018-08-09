@@ -1,0 +1,26 @@
+body {
+padding: 10px;
+margin: 5px;
+}
+
+.label {
+font-weight: bold
+}
+
+.create-update-form {
+padding: 5px;
+margin: 5px;
+}
+
+.form-group {
+margin-bottom: 5px;
+}
+.container-fluid{
+background-color: rgb(224, 190, 190);
+margin: 20px;
+padding: 20px;
+}
+.inputBox{
+    padding: 20px 1px; line-height: 28px;
+    margin-top:30%;
+}
