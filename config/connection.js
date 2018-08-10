@@ -11,8 +11,8 @@ var connection = mysql.createConnection({
   port: 3306,
   user: "root",
   password: "root",
-  database: "vjuvyayqnxk35tgg"
-  //  "burger_db"
+  database: "burger_db"
+  //"vjuvyayqnxk35tgg"  
 });
 }
 
