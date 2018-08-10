@@ -1,12 +1,14 @@
-body {
-padding: 10px;
-margin: 5px;
+.container{
+position: relative;
+text-align: center;
 }
-
 .label {
 font-weight: bold
 }
-
+.list {
+    padding: 10px;
+    margin: 10px 0;
+}
 .create-update-form {
 padding: 5px;
 margin: 5px;
@@ -16,11 +18,56 @@ margin: 5px;
 margin-bottom: 5px;
 }
 .container-fluid{
-background-color: rgb(224, 190, 190);
-margin: 20px;
-padding: 20px;
+background-color: #edd170;
+margin: 0px;
+padding: 25px;
 }
 .inputBox{
     padding: 20px 1px; line-height: 28px;
-    margin-top:30%;
+    margin-top:15%;
+    margin-bottom: 5%;
+}
+.image { 
+    position: center; 
+    width: 100%; 
+ }
+ .title { 
+    color: #003d73; 
+    font: bold 30px/30px Helvetica, Sans-Serif; 
+    text-align:center; 
+    padding: 10px; 
+ }
+ h2 span { 
+    color: #003d73; 
+    font: bold 45px/50px Helvetica, Sans-Serif; 
+    text-align:center; 
+    padding: 10px; 
+ }
+ h2 { 
+    position: center; 
+    top: 200px; 
+    left: 0;
+    width:100%;
+ }
+img {
+    height: 140px;
+    width: 180px;
+
+}
+btn {
+    background-color: #c05640;
+    color:  #1ecfd6;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+button {
+    background-color: #c05640;
+    color:  #1ecfd6;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    
 }

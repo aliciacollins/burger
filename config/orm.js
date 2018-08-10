@@ -44,7 +44,7 @@ var orm = {
         throw err;
       }
       cb(result);
-      console.log("results form all orm",result)
+      console.log("orm results add",result);
     });
   },
   create: function(table, cols, vals, cb) {
@@ -65,15 +65,14 @@ var orm = {
       }
 
       cb(result);
-      console.log("orm query result",result);
     });
   },
 
   update: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
-
+console.log("objtoSql(objColVals",objToSql(objColVals))
     queryString += " SET ";
-    queryString += objToSql(objColVals);
+    queryString += "devoured = 1";
     queryString += " WHERE ";
     queryString += condition;
 
